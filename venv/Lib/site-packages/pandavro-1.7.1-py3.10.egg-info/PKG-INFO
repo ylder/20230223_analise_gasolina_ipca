@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pandavro
+Version: 1.7.1
+Summary: The interface between Avro and pandas DataFrame
+Home-page: https://github.com/ynqa/pandavro
+Author: Makoto Ito
+Author-email: un.pensiero.vano@gmail.com
+License: MIT
+Requires-Python: >=3.6.1
+Provides-Extra: tests
+License-File: LICENSE
