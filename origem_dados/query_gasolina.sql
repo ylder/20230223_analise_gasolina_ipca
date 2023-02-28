@@ -1,5 +1,12 @@
+---------------------------------------------------------------------------------------------------
+-- DICIONÁRIO DE DADOS
+--
 -- Objetivo: consultar dados de vendas de combustíveis de distribuidores
--- Nível de observação: comprador, data_coleta (dd/mm/aaa), id_municipio
+-- Nível de observação: 1 comprador (coluna não evidenciada no conjunto de dados)
+--                      2 data_coleta (dd/mm/aaa)
+--                      3 id_municipio
+---------------------------------------------------------------------------------------------------
+
 SELECT
     data_coleta,
     id_municipio,
