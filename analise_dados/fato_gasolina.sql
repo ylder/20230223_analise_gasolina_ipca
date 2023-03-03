@@ -59,7 +59,7 @@ WITH
             -- Desenvolvendo coluna que registra o mês e o ano
             STRFTIME(
                 '%m/%Y',
-                -- Colunas originais ano e mês serão concatenadas e transformadas 'dd/mm/yyyy'
+                -- Colunas originais ano e mês serão concatenadas e transformadas ('dd/mm/yyyy')
                 ( ano || '-' || substr( '00'|| mes, -2, 2) || '-' || "01" )
 
             ) AS mes_ano,
@@ -67,7 +67,7 @@ WITH
             -- Desenvolvendo coluna que registra o ano e mês
             STRFTIME(
                 '%Y%m',
-                -- Colunas originais ano e mês serão concatenadas e transformadas 'dd/mm/yyyy'
+                -- Colunas originais ano e mês serão concatenadas e transformadas ('dd/mm/yyyy')
                 ( ano || '-' || substr( '00'|| mes, -2, 2) || '-' || "01" )
 
             ) AS ano_mes,
@@ -102,9 +102,17 @@ SELECT
     gas.data_coleta,
     gas.id_municipio,
     gas.preco_venda,
-    gas.preco_venda * inf.correcao_inflacionaria AS preco_corrigido
+    gas.preco_venda * inf.correcao_inflacionaria AS preco_corrigido,
+    geo.id_municipio_completo,
+    geo.nome_municipio,
+    geo.nome_uf,
+    geo.sigla_uf,
+    geo.regiao_uf
 
 FROM fato_gasolina AS gas
 
 LEFT JOIN correcao_inf2 AS inf
     ON gas.mes_ano = inf.mes_ano
+
+LEFT JOIN geografia AS geo
+    ON gas.id_municipio = geo.id_municipio
