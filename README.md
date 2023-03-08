@@ -12,6 +12,16 @@
 	SQL
 	Python 3.9.10
 
+## 3 Objetivos do autor
+
+	• Explorar formas de coletar dados (csv, html e data lake);
+	
+	• evitar o uso de arquivos csv, construindo uma solução simplificada de
+      banco de dados do SQLite, centralizando as tabelas;
+	
+	• explorar o uso do SQl na etapa de tratamento dos dados, integrado com o
+	  python.
+
 ## 3 Funcionamento do projeto
 
 
@@ -38,7 +48,7 @@
 		principal (script jupyter); consequentemente, essa visualização
 		demonstra o fluxo de trabalho para geração da análise exploratória.
 	
-![fluxo_projeto](https://user-images.githubusercontent.com/126031404/222596604-c26a528d-8a4e-4a14-9b88-9ee6b79a0542.png)
+![Imagem1](https://user-images.githubusercontent.com/126031404/223586057-3f24e4b2-e865-4410-bff7-b2ba4bbd34f5.png)
   
 	3.2 Coleta de dados
 	------
@@ -62,6 +72,9 @@
 		Ao executar o 2º código .ipynb, ele automaticamente irá conectar com o
 		banco de dados já criado na 1º execução do script e, por fim, armazenará
 		os dados tratados nele.
+
+		Buscou-se evitar o uso de arquivos csv no projeto, centralizando os dados
+		em um banco de dados por meio do módulo sqlite3 no python.
 	
 	3.3 Análise dos dados
 	------
