@@ -1,4 +1,4 @@
-#!C:\Users\ylsan\projetos_portfolio\20230223_analise_gasolina_ipca\venv\Scripts\python.exe
+#!"C:\Users\ylsan\OneDrive\Área de Trabalho\projetos_portfolio\20230223_analise_gasolina_ipca\venv\Scripts\python.exe"
 # EASY-INSTALL-ENTRY-SCRIPT: 'ckanapi==4.6','console_scripts','ckanapi'
 import re
 import sys

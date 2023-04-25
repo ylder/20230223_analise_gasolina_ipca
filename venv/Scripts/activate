@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\ylsan\projetos_portfolio\20230223_analise_gasolina_ipca\venv"
+VIRTUAL_ENV="C:\Users\ylsan\OneDrive\Área de Trabalho\projetos_portfolio\20230223_analise_gasolina_ipca\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

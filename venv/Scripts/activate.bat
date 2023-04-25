@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\ylsan\projetos_portfolio\20230223_analise_gasolina_ipca\venv
+set VIRTUAL_ENV=C:\Users\ylsan\OneDrive\Área de Trabalho\projetos_portfolio\20230223_analise_gasolina_ipca\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
