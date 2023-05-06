@@ -22,10 +22,10 @@
 	• explorar o uso do SQl na etapa de tratamento dos dados, integrado com o
 	  python.
 
-## 3 Funcionamento do projeto
+## 4 Funcionamento do projeto
 
 
-	3.1 Estrutura do projeto
+	4.1 Estrutura do projeto
 	------
 
 		O projeto foi desenvolvido dentro do ambiente do Visual Studio Code. O 
@@ -50,7 +50,7 @@
 	
 ![Imagem1](https://user-images.githubusercontent.com/126031404/223586057-3f24e4b2-e865-4410-bff7-b2ba4bbd34f5.png)
   
-	3.2 Coleta de dados
+	4.2 Coleta de dados
 	------
 
 		Os dados extraídos são de duas fontes: site IBGE e Data Lake.
@@ -76,14 +76,14 @@
 		Buscou-se evitar o uso de arquivos csv no projeto, centralizando os dados
 		em um banco de dados por meio do módulo sqlite3 no python.
 	
-	3.3 Análise dos dados
+	4.3 Análise dos dados
 	------
 
 		Estando as tabelas armazenadas no banco, uma query foi desenvolvida
 		para consultá-las e retornar o Data Frame para início da análise no
 		python.
 
-## 4 Considerações
+## 5 Considerações
 
 	Cada arquivo do projeto possui comentários e explicações sobre seu próprio
 	funcionamento. Necessário esse aprofundamento em cada um para que haja
