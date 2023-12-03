@@ -2,8 +2,9 @@
 
 ## 1 Descrição do projeto
 	
-	Análise exploratória do preço do litro da gasolina corrigido pela inflação,
-	com os dados históricos dessas séries entre o período de jan/2005 e out/2021
+	Análise da evolução do preço do litro da gasolina corrigido pela inflação,
+	com dados históricos do período de jan/2005 até out/2021.
+
 	
 ## 2 Ferramentas e técnicas utilizadas
 	
