@@ -1,0 +1,22 @@
+---------------------------------------------------------------------------------------------------
+-- TABLE gasoline
+--
+-- Objetivo: obter dados de vendas de combustíveis de distribuidores
+-- Nível de observação: 1 comprador (coluna não evidenciada no conjunto de dados)
+--                      2 data_coleta (dd/mm/aaa)
+--                      3 id_municipio
+
+
+---------------------------------------------------------------------------------------------------
+-- TABLE inflation
+--
+-- Objetivo: obter o histórico do índice de inflação mensal
+-- Nível de observação: mes, ano
+
+
+---------------------------------------------------------------------------------------------------
+-- TABLE cities
+--
+-- Objetivo: obter informações geográficas dos país a partir das cidades
+-- Nível de observação: 
+    cidade, microrregião, mesorregião, regiao_imediata, regiao_intermediaria, UF, regiao
